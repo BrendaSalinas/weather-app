@@ -121,6 +121,14 @@ body {
     font-weight: 100;
 }
 
+.input-user{
+    width: 390px;
+    border-radius: 5px;
+}
+
+.input-user .btn{
+    padding: 10px;
+}
 @media only screen and (max-width:730px){
     .future-forecast{
         justify-content: start;
@@ -149,7 +157,9 @@ body {
         margin-top: 15px;
     }
 
-    
+    .input-user{
+        width: 230px;
+    }
 
 
 }

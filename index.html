@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Weather App</title>
 </head>
 <body>
@@ -39,8 +41,15 @@
             </div>
 
             <div class="place-container">
-                <div class ="time-zone" id="time-zone">Texas/Austin</div>
-                <div id="country" class="country">US</div>
+                
+                <form class ="col-md-6 m-auto- py-5" id="time-zone">
+                    <div class = "input-group mb-3">
+                        <input type = "text" class = "input-user" id = "input-user" placeholder="Enter a location for weather..">
+                        <div class ="group-append">
+                            <button id="submitBtn" type = "button" class = 'btn btn-dark'>Search</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
 
